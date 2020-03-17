@@ -1,0 +1,101 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: ghostwhite;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: rgb(246, 179, 25);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  opacity: 1.0;
+  
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-family:'Oxygen', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  height: fit-content;
+  float: left;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: rgba(0, 0, 139, 0.712);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-shadow: 5px 0px 2px white;
+}
+#collapsable-nav{
+  text-align: center;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+}
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+/* CONTENT */
+.main-content{
+  margin-top: 0px;
+}
+
+#chicken-col, #beef-col, #sushi-col {
+  margin: 0px;
+  padding: 2.5em;
+  margin-top: 20px;
+}
+#chicken-col div, #beef-col div, #sushi-col div{
+  padding: 1.5em;
+  background-color: rgba(246, 180, 25, 0.548);
+}
+
+h3.meal-tile{
+  color: darkblue;
+  text-align: center;
+}
+
+.meal-tile + p{
+  color: darkblue;
+}
+
+/* END OF CONTENT */
+
+
+/* FOOTER */
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+/* END FOOTER */
